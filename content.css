@@ -1,0 +1,120 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Noto Sans Gujarati';
+    margin: 1rem;
+}
+
+.navbar-custom {
+    background-color: maroon;
+    font-size: 20px;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+
+
+/* COntent */
+.col-lg-6{
+    background-color: lightgrey !important;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.larr{
+    position: fixed;
+    border-radius: 50%;
+    background-color: maroon;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    left: 0.5rem;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px; 
+    opacity: 0.7;
+}
+.larr:hover{
+    opacity: 1;
+}
+.rarr{
+    position: fixed;
+    border-radius: 50%;
+    background-color: maroon;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    right: 0.5rem;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px; 
+    opacity: 0.7;
+}
+.rarr:hover{
+    opacity: 1;
+}
+
+.stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: maroon url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+}
+
+.stt:hover {
+    opacity: 0.8;
+}
+
+.stt:focus {
+    opacity: 0.9;
+}
+
+.stt:active {
+    opacity: 1;
+}
+
+.footer {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+}
+
+.footer a {
+    display: inline-block;
+    margin-right: 20px;
+    right: 5rem;
+
+}
+
+.footer a:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+#I {
+    font-size: 50px;
+}
